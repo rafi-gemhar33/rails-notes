@@ -1,1 +1,3 @@
- # rails-notes
+ # ruby + rails tldr; notes.
+
+ 
