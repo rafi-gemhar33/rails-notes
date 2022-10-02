@@ -1,4 +1,4 @@
-
+# bootstrapping_your_ruby_literacy
 ## Basic Ruby language literacy
 - `Ruby` is a programming language. 
 - `ruby`, is a computer program. Specifically, it’s the Ruby interpreter
