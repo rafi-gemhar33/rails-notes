@@ -402,6 +402,6 @@ end
 raise MyNewException, "Ho ho ho its my new exception"
 ```
 
-- inheriting from `StandardError`, `CustomError` 
+- inheriting from `StandardError`, `CustomError < StandardError` 
   - provides a meaningful exception name and 
   - refines the semantics of the rescue operation.

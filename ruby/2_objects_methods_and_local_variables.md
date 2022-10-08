@@ -173,4 +173,4 @@ When you call a method with arguments, you’re really trafficking in object ref
 - If (=) to the right of the identifier, it’s a local variable
 - Otherwise, its assumed to be a local variable or method call; treated the same way by the Ruby interpreter.
 Else error:
- **undefined local variable or method `poop' for main:Object`**
+ **undefined local variable or method `soup' for main:Object`**
