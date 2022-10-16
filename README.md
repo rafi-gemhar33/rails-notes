@@ -13,3 +13,4 @@
 ### 7. Built-in essentials
 ### 8. Strings, symbols, and other scalar objects
 ### 9. Collection and container objects
+### 10. Collections central: Enumerable and Enumerator
