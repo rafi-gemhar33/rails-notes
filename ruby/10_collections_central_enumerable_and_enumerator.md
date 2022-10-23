@@ -92,7 +92,7 @@ states.none? {|state| state =~ /East/ } ### => true
 ### Getting the first match with `find`(a.k.a. `detect`)
 - first element in an array for which the code block
 - returns nil if none is found.
--  provide a “nothing found”, a Proc object—as an argument 
+-  provide a "nothing found", a Proc object—as an argument 
   - proc will be called if the find fails.
 
 ```rb
@@ -179,10 +179,10 @@ address.first ### => [:city, "New York"]
 
 ### The take and drop methods
 - `take`
-  - “take” a certain number of elements from the beginning
+  - "take" a certain number of elements from the beginning
   -  it returns an empty array if the array is empty.
 - `drop`
-  - “drop” a certain number of elements
+  - "drop" a certain number of elements
 
 - `drop_while`
   - It drops the elements if the block returns true
@@ -622,7 +622,7 @@ orig = x ^ key ### => "Nice little string."
 - `pack`
  - turns an array into a string, interpreting each element of the array in a manner specified by the argument.
   - "C*"
-    - treat each element of the array as an unsigned integer representing a single character (that’s the “C”), and process all of them (that’s the “*”)
+    - treat each element of the array as an unsigned integer representing a single character (that’s the "C"), and process all of them (that’s the "*")
 
 -  if you `XOR`, say, a `UTF-8` against an `ASCII` string twice, 
   - you’ll get back a string encoded in ASCII-8BIT. 

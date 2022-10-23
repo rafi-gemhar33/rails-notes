@@ -41,9 +41,9 @@ puts "You can escape the backslash to get \\n and \\t with double quotes."
 - `%Q{}` & `%{}` (percent sign and delimiter), 
   -a double-quoted string
 
-### “HERE” DOCUMENTS
+### "HERE" DOCUMENTS
 - multiline string, it’s physically present __"here"__ in the program file
-- <<EOM means the text that follows, up to but not including the next occurrence of “EOM.”
+- <<EOM means the text that follows, up to but not including the next occurrence of "EOM."
 - The delimiter can be any string; EOM (end of message) is a common choice.
 - `SQL` is also common because SQL queries can get lengthy
 
@@ -57,7 +57,7 @@ SQL
 
 -  Delimiter by itself must be flush left, and it must be the only thing on the line where it occurs
 - can switch off the flush-left requirement by putting a hyphen before the << operator hyphen heredoc <<-
-- squiggly heredoc,” <<~, which strips leading whitespace from your output.
+- squiggly heredoc," <<~, which strips leading whitespace from your output.
 ```rb
 <<-EOM
       Welcome to the world of Ruby!
@@ -332,7 +332,7 @@ string.replace("David A. Black") ### => "David A. Black"
   - You may use the word coding
 - individual strings
   - force_encoding
-  - bypasses the table of “permitted” encodings 
+  - bypasses the table of "permitted" encodings 
   - encodes the bytes of the string with the encoding you specify, unconditionally.
 - represent arbitrary characters in a string using either the `\x` escape sequence with a two-digit hexadecimal number representing a byte, or the `\u` escape sequence with a UTF-8 code; the corresponding character will be inserted.
   - encoding switches to UTF-8.

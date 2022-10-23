@@ -123,7 +123,7 @@ puts obj # => I'm an object! ### returns => nil
 ### to_a (to array)
 - all objects that include Enumerable, 
   - including Hash, Range, Struct, and Enumerator, implement to_a
-- The * operator (“splat” or “star” or “unarray”) does a unwrapping of its operand into its components, those components being the elements of its array representation.
+- The * operator ("splat" or "star" or "unarray") does a unwrapping of its operand into its components, those components being the elements of its array representation.
   - the splat turns any array, or any object that responds to to_a, into the equivalent of a bare list.
   - Bare lists are valid syntax only in certain contexts. like inside an array literal or sponge param, or in argument
 ```rb

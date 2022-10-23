@@ -1,7 +1,7 @@
 # 5_the_default_object_self_scope_and_visibility
 
 - Context is important when discerning the value of an identifier or the state of an object
-- Self is the “current” or “default” object
+- Self is the "current" or "default" object
 
 ## self
 - default object/current object, accessible by keyword `self`
@@ -104,7 +104,7 @@ c.show_var
 
 ### Global scope and global variables
 -  global variables, which are recognizable by their initial dollar-sign ($)
--  global variables never go out of scope. (except “thread-local globals,”)
+-  global variables never go out of scope. (except "thread-local globals,")
 
 #### BUILT-IN GLOBAL VARIABLES
 - rarely a good or appropriate choice to use gvars
@@ -166,7 +166,7 @@ class Violin
 - String inside `initialize` resolves to `Violin::String`, 
   * make sure you’re referring to the built-in, original String class
   * constant path separator `::` at the beginning => `::String`
-- Like the `/` at the beginning of a pathname, the `::` of constant means “start the search at the top level.
+- Like the `/` at the beginning of a pathname, the `::` of constant means "start the search at the top level.
 
 
 ### Class variable syntax, scope, and visibility

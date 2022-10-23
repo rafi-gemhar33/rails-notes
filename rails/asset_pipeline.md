@@ -1,5 +1,5 @@
 - Rails recommended best practice is to allow the asset pipeline to handle css and use Webpack only for Javascript assets
-- Rails’ flatten everything out and mash all your asset files together into one big one for each filetype (called “concatenation”)
+- Rails’ flatten everything out and mash all your asset files together into one big one for each filetype (called "concatenation")
 
 ### Manifest Files
 - javascript manifest file will be `app/assets/javascripts/application.js`

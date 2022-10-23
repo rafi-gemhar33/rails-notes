@@ -22,7 +22,7 @@
 - array is an ordered collection 
 - Hashes store objects in a key and a value pair.
  - Any Ruby object can serve as a hash key and/or value
-  - hashes exhibit a kind of “meta-index” property
+  - hashes exhibit a kind of "meta-index" property
 ```rb
 hash.each_with_index {|(key,value),i|  ### 1 
   puts "Pair #{i} is: #{key}/#{value}"
@@ -482,7 +482,7 @@ add_to_city_database("tokyo", country: "JAPAN", continent: "ASIA", population: 7
 ```
 
 ### named (keyword) arguments
-- “unwraps” hashes in your methods.
+- "unwraps" hashes in your methods.
 - keyword arguments optional by supplying default values
 - double- starred argument 
   - sponges  all unknown keyword arguments into a hash

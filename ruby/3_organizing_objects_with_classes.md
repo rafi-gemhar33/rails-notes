@@ -197,7 +197,7 @@ class Ticket
 
 
 - Ruby objects are engineered: they derive their functionality from the instance methods defined in their classes and the ancestors of those classes,
-- but they’re also capable of “learning” specific, individualized behaviors in the form of singleton methods.
+- but they’re also capable of "learning" specific, individualized behaviors in the form of singleton methods.
 
 - `is_a?` method to check object has a given class either as its class or ancestral classes.
 - In Ruby the behavior or capabilities of an object can deviate from those sup- plied by its class.

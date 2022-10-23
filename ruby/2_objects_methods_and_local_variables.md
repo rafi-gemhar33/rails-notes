@@ -71,7 +71,7 @@ obj.c2f 100  #  method call
 
   ```
   - invokes the method passed in as the first param(in the form of symbol/string)
-  - “chomps” off the trailing newline character
+  - "chomps" off the trailing newline character
   - send can call an object’s private methods
   - `__send__` 
   - `public_send` - does not call private methods

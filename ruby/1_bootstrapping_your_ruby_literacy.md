@@ -125,24 +125,24 @@ fh.close
 **sitearchdir:**  Your own Ruby language extensions (written in C)
 **vendordir:**  Third-party extensions and libraries (written in Ruby)
 
-### RbConfig::CONFIG[“rubylibdir”]
+### RbConfig::CONFIG["rubylibdir"]
 - standard library facilities
 - **uri.rb** — Tools for uniform handling of URIs
 - **fileutils.rb** — Utilities for manipulating files easily from Ruby programs
 - **tempfile.rb** — A mechanism for automating the creation of temporary files
 - **benchmark.rb** — A library for measuring program performance
-### (RbConfig::CONFIG[“archdir”]
+### (RbConfig::CONFIG["archdir"]
 -  one level down from rubylibdir
 - architecture-specific extensions and libraries. 
 - .so, .dll, or .bundle
 - C extensions: binary, runtime-loadable files generated from Ruby’s C-language extension code
-### RbConfig::CONFIG[“sitedir”])
+### RbConfig::CONFIG["sitedir"])
 -  subdirectory called `site_ruby`,
 - third-party extensions and libraries
 - you can store third-party extensions and libraries
 - it has its own subdirectories for Ruby-language and C-language extensions
   - `sitelibdir` and `sitearchdir`, respectively,
-### (RbConfig::CONFIG[“vendordir”])
+### (RbConfig::CONFIG["vendordir"])
 - vendor_ruby with the same subdirectory structure as `site_ruby`. 
 - third-party extensions install themselves here.
 
@@ -170,7 +170,7 @@ fh.close
 - `require` and `load` methods
 - Extension can refer to any loadable add-on library(written in the C programming)
 
-### “Load”-ing a file
+### "Load"-ing a file
   -  filepath as its argument
   -  current working directory, & look for it in the load path
   -  Ruby interpreter’s load path is a list of directories in which it searches for files you ask it to load
@@ -188,7 +188,7 @@ fh.close
   - navigate relative directories in your load
   - load files names dynamically during the run of the program
   -  load always reloads if called more than once with the same arguments
-### “Require”-ing a feature
+### "Require"-ing a feature
   - if called more than once with the same arguments, doesn’t reload files
   -  can also feed a fully qualified path 
 

@@ -41,9 +41,9 @@
 
 ## Building a pattern in a regular expression 355
 
-- Literal characters, meaning “match this character”
-- The dot wildcard character (.), meaning “match any character” (except \n, the newline character)
-- Character classes, meaning “match one of these characters”
+- Literal characters, meaning "match this character"
+- The dot wildcard character (.), meaning "match any character" (except \n, the newline character)
+- Character classes, meaning "match one of these characters"
 
 ### Literal characters in patterns
 - matches itself 
@@ -353,7 +353,7 @@ m = /\(.*?\)/m.match(str)
 ## Converting strings and regular expressions to each other
 - `/abc/` is not `"abc"`
 - it matches not only "abc" but any string with the substring "abc" 
-  - somewhere inside it (like “Now I know my abcs.”).
+  - somewhere inside it (like "Now I know my abcs.").
 ### String-to-regexp idioms
 - string (or string-style) interpolation inside a regexp.
 - When string interpolating contains regexp special characters

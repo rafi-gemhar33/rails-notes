@@ -1,1 +1,11 @@
-Hello
+=> #<File:ruby/7_built_in_essentials/tmp/display.out>
+=> #<File:ruby/7_built_in_essentials/tmp/display.out>
+#<File:0x00007febbb8af288>
+=> nil
+(irb):23:in `/': divided by 0 (ZeroDivisionError)
+	from (irb):23:in `<main>'
+	from /Users/rafi/.rbenv/versions/3.0.2/lib/ruby/gems/3.0.0/gems/irb-1.4.2/exe/irb:11:in `<top (required)>'
+	from /Users/rafi/.rbenv/versions/3.0.2/bin/irb:23:in `load'
+	from /Users/rafi/.rbenv/versions/3.0.2/bin/irb:23:in `<main>'
+=> #<File:ruby/7_built_in_essentials/tmp/display.out>
+=> #<File:ruby/7_built_in_essentials/tmp/display.out>
