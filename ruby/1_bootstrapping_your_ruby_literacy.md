@@ -1,3 +1,34 @@
+
+1 Bootstrapping your Ruby literacy 3
+1.1 Basic Ruby language literacy 4
+1.1.1 Installing Ruby and using a text editor 4
+1.1.2 A Ruby syntax survival kit 6
+1.1.3 The variety of Ruby identifiers 7
+1.1.4 Method calls, messages, and Ruby objects 9
+1.1.5 Writing and saving a simple program 11
+1.1.6 Feeding the program to Ruby 12
+1.1.7 Keyboard and file I/O 14
+
+
+1.2 Anatomy of the Ruby installation 17
+1.2.1 The Ruby standard library subdirectory (RbConfig::CONFIG [“rubylibdir”]) 18 
+1.2.2 The C extensions directory (RbConfig::CONFIG [“archdir”]) 18 
+1.2.3 The site_ruby (RbConfig::CONFIG[“sitedir”]) and vendor_ruby (RbConfig::CONFIG[“vendordir”]) directories 19
+1.2.4 Standard Ruby gems and the gems directory 19
+
+1.3 Ruby extensions and programming libraries 20
+1.3.1 Loading external files and extensions 21 
+1.3.2 “Load”-ing a file contents
+ 
+1.4
+1.4.1 in the default load path 22 
+1.4.2 “Require”-ing a feature 23 require_relative 24
+1.4.3 Out-of-the-box Ruby tools and applications 25
+1.4.4 Interpreter command-line switches 25 
+1.4.5 A closer look at interactive Ruby interpretation with irb 29 
+1.4.6 The rake task- management utility 31 
+1.4.7 Installing packages with the gem command 33
+
 # bootstrapping_your_ruby_literacy
 ## Basic Ruby language literacy
 - `Ruby` is a programming language. 
